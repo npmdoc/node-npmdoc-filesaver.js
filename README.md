@@ -1,4 +1,7 @@
-# api documentation for  [filesaver.js (v0.2.0)](https://github.com/mWater/FileSaver.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-filesaver.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-filesaver.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-filesaver.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-filesaver.js)
+# npmdoc-filesaver.js
+
+#### api documentation for  [filesaver.js (v0.2.0)](https://github.com/mWater/FileSaver.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-filesaver.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-filesaver.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-filesaver.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-filesaver.js)
+
 #### An HTML5 saveAs() FileSaver implementation
 
 [![NPM](https://nodei.co/npm/filesaver.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/filesaver.js)
@@ -18,44 +21,29 @@
 ```json
 
 {
-    "author": {
-        "name": "Eli Grey"
-    },
-    "bugs": {
-        "url": "https://github.com/eligrey/FileSaver.js/issues"
-    },
-    "dependencies": {},
+    "name": "filesaver.js",
+    "version": "0.2.0",
     "description": "An HTML5 saveAs() FileSaver implementation",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "2657dc471ec78f2d405d9da066cf039a5be69802",
-        "tarball": "https://registry.npmjs.org/filesaver.js/-/filesaver.js-0.2.0.tgz"
+    "main": "FileSaver.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "gitHead": "df2cdac54cd0119536fb08290796a03a8660b785",
-    "homepage": "https://github.com/mWater/FileSaver.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mWater/FileSaver.js.git"
+    },
     "keywords": [
         "filesaver",
         "saveas",
         "blob"
     ],
+    "author": "Eli Grey",
     "license": "MIT/X11",
-    "main": "FileSaver.js",
-    "maintainers": [
-        {
-            "name": "grassick"
-        }
-    ],
-    "name": "filesaver.js",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mWater/FileSaver.js.git"
+    "bugs": {
+        "url": "https://github.com/eligrey/FileSaver.js/issues"
     },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "version": "0.2.0"
+    "homepage": "https://github.com/mWater/FileSaver.js",
+    "bin": {}
 }
 ```
 
